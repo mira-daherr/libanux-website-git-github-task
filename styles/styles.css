@@ -1,0 +1,65 @@
+#home {
+
+    text-align: center;
+    margin: 20px;
+    background-color: #f0f8ff;
+}
+
+#about {
+    text-align: center;
+    margin: 20px;
+}
+
+#contact {
+    text-align: center;
+    margin: 20px;
+
+
+}
+
+#paragraph {
+    border: 1px solid #007BFF;
+    color: #222;
+    background-color: #f0f8ff;
+    width: 700px;
+    padding: 15px;
+    margin: 20px auto;
+    font-size: 50px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.customizediv {
+    background: rgb(93, 132, 200);
+    padding: 12px 20px;
+
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+
+div a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+div a:hover {
+    color: #007BFF;
+}
+
+#footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 15px;
+    margin-top: 300px;
+    font-size: 24px;
+
+}
