@@ -1,0 +1,26 @@
+
+cd libanux-website                          Move into the project folder
+git init                                    Initialize Git in this folder
+
+git add .                                  
+git commit -m "chore: initial website structure with README and index.html"   Save the first snapshot with a message
+
+git remote add origin https://github.com/mira-daherr/libanux-website-git-github-task.git  Connect local repo to GitHub
+git branch -M main                          Rename branch from master to main
+git push -u origin main                      Push the first commit to GitHub
+
+
+git add libanux.html                        Stage the new HTML file
+git commit -m "feat: add libanux.html with logo and company name"  Commit it with a message
+
+git pull origin main                         Pull changes from GitHub (README.md edit)
+ (Fixed the README.md merge conflict manually)
+
+git add README.md                            Stage the resolved conflict
+git commit -m "fix: resolved merge conflict in README.md"   Commit the resolved merge
+
+git push origin main                         Push all local commits to GitHub
+
+git add commands.txt                         Stage the log file
+git commit -m "docs: add commands.txt file with Git command log"  #Commit it normally
+git push origin main                         Push the new commit to GitHub
